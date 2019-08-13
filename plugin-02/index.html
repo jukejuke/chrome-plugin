@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<script>
+function startApp() {
+	var evt = document.createEvent("CustomEvent");
+	evt.initCustomEvent('myCustomEvent', true, false, "im information");
+	// fire the event
+	document.dispatchEvent(evt);
+}
+function sendMsg() {
+	var evt = document.createEvent("CustomEvent");
+	evt.initCustomEvent('sendMsg', true, false, "test sendMsg");
+	// fire the event
+	document.dispatchEvent(evt);
+}
+function sendMsg2(){
+	chrome.runtime.sendMessage({type: "sendMsg", message: "test sendMsg2"}, function(response) {
+		console.log("************************");
+  	console.log(response)
+  	console.log("************************");
+	});
+}
+
+document.addEventListener('pageEvent', function(evt) {
+	console.log("pageEvent*****");
+  console.log(evt);
+}, false);
+
+</script>
+</head>
+<body>
+
+<button type="button" onClick="startApp()" id="startApp">startApp</button>
+<button type="button" onClick="sendMsg()" id="sendMsg">sendMsg</button>
+<button type="button" onClick="sendMsg2()" id="sendMsg">sendMsg2</button>
+</body>
+</html>

@@ -1,0 +1,9 @@
+{
+	"name": "com.my_company.my_application",
+	"description": "Chrome sent message to native app.",
+	"path": "C:\\MyApp.exe",
+	"type": "stdio",
+	"allowed_origins": [
+		"chrome-extension://akldhikhjfejogdlcbfmhgipldfipgpp/"
+	]
+}

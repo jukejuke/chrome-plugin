@@ -1,0 +1,8 @@
+E:\星瑞\chrome 插件\MyApp\MyApp\bin\Debug\MyApp.exe.config
+E:\星瑞\chrome 插件\MyApp\MyApp\obj\Debug\MyApp.Properties.Resources.resources
+E:\星瑞\chrome 插件\MyApp\MyApp\obj\Debug\MyApp.csproj.GenerateResource.Cache
+E:\星瑞\chrome 插件\MyApp\MyApp\bin\Debug\MyApp.exe
+E:\星瑞\chrome 插件\MyApp\MyApp\bin\Debug\MyApp.pdb
+E:\星瑞\chrome 插件\MyApp\MyApp\obj\Debug\MyApp.exe
+E:\星瑞\chrome 插件\MyApp\MyApp\obj\Debug\MyApp.pdb
+E:\星瑞\chrome 插件\MyApp\MyApp\obj\Debug\MyApp.Form1.resources
